@@ -1,0 +1,134 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@yyggithub 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+ 
+yyggithub
+/
+vcc2020.github.io
+1
+0 0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+vcc2020.github.io/index.html
+ @yyggithub
+yyggithub Update index.html
+Latest commit e0eedac on 18 May
+ History
+ 1 contributor
+86 lines (76 sloc)  4.37 KB
+    
+<html><head>
+    <meta charset="UTF-8">
+    <title>Many-to-Many Voice Conversion using Dual Speaker Embedding based Seq-to-Seq Acoustic Modeling with multi-speaker TTS  based data augmentation</title>
+  <body>
+    <div>
+      <article>
+      <header> <h2>Many-to-Many Voice Conversion using Dual Speaker Embedding based Seq-to-Seq Acoustic Modeling with multi-speaker TTS  based data augmentation</h2> </header>
+    </article>
+    <p><b>Paper:</b> <a href="">Submitted to Interspeech 2020</a></p>
+    <p><b>Authors</b>: Yaogen Yang, Zexin Cai, Ming Li</p>
+    <div><b>Abstract:</b>  The sequence-to-sequence voice conversion for generating high-fidelity speech has been confirmed in recent works. However, the sequence-to-sequence voice conversion requires a large amount of parallel data, which is impractical to obtain. This paper describe a many-to-many voice conversion model using conditional sequence-to-sequence neural network framework. The network maps a source speaker Mel-spectrogram directly to target speaker Mel-spectrogram with utilizing dual speaker embedding representation. An end-to-end multi-speaker TTS is used to synthesize parallel utterance for voice conversion training to solve limitation of parallel data. We manage to discriminate source and target speaker identity with using speaker encoder generates a fixed-dimensional embedding vector.
+A WaveRNN-based vocoder network that converts the Mel-spectrogra into time-domain waveform. The experimental results confirm that the proposed method outperformed one-to-many baseline system in Voice Conversion Challenge 2020 corpus. </div>
+  <p>&nbsp;</p>
+  <hr />
+  <h3>&nbsp;</h3>
+   <h3> We select a sentence, which is "There are many examples of this in France", for test before the VCC2020 evelation data  is released.</h3>
+   <h3>Task1</h3>    
+    <table>
+      <thead>
+      <tr></tr>  <tr></tr>  <tr></tr>
+      <tr>
+        <th> source speaker speech </th> <th> converted speech</th> <th> target speaker speech </th>  
+    </thead><tbody>
+    <tr></tr>  <tr></tr><tr></tr>  <tr></tr>
+    <tr>
+      <td colspan="5"><span><b>SEF1-to-TEF1</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEF1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEF1-E10052-TEF1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEF1-E10052.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr>
+      <td colspan="5"><span><b>SEF1-to-TEM1</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEF1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEF1-E10052-TEM1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEM1-E10052.wav" type="audio/wav"></audio></td>
+    </tr>
+     <tr>
+      <td colspan="5"><span><b>SEF1-to-TEF2</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEF1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEF1-E10052-TEF2.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEF2-E10052.wav" type="audio/wav"></audio></td>
+    </tr>
+     
+     <tr>
+      <td colspan="5"><span><b>SEF1-to-TEM2</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEF1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEF1-E10052-TEM2.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEM2-E10052.wav" type="audio/wav"></audio></td>
+    </tr>    
+    
+     <tr>
+      <td colspan="5"><span><b>SEM1-to-TEF1</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEM1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEM1-E10052-TEF1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEF1-E10052.wav" type="audio/wav"></audio></td>
+    </tr>
+        
+        
+     <tr>
+      <td colspan="5"><span><b>SEM1-to-TEM1</b></span></td>
+    </tr>
+    <tr>
+      <td><audio controls=""><source src="js/SEM1-E10052.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/SEM1-E10052-TEM1.wav" type="audio/wav"></audio></td>
+      <td><audio controls=""><source src="js/TEM1-E10052.wav" type="audio/wav"></audio></td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+        
+        
+        
+</div>
+
+</body></html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
